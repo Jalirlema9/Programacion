@@ -57,3 +57,31 @@ Proceso sin_titulo
 FinProceso
 
 
+Proceso sin_titulo
+	Escribir "Insertar base:"
+	Leer b
+	Escribir "Insertar altura:"
+	Leer h
+	Escribir "Area del paralelogramo"
+	area<- b*h
+	Escribir Area
+FinProceso
+
+
+Proceso sin_titulo
+	Escribir "Insertar radio:"
+	Leer r
+	Escribir "Area del circulo"
+	area<-r*r*3.1416
+	Escribir Area
+FinProceso
+
+
+Proceso sin_titulo
+	Escribir "Insertar lado:"
+	Leer l
+	Escribir "Area del cuadrado"
+	area<-l*l
+	Escribir Area
+FinProceso
+
