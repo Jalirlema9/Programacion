@@ -23,3 +23,24 @@ Algoritmo HolaMundo
 	Escribir "Ya ceso su servil condicion"
 FinAlgoritmo
 
+
+
+// jalir lema.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+     cout<<"Bolivianos el hado propicio"<<endl;
+	 cout<<"Corono nuestros votos y anhelos"<<endl;
+	 cout<<"Es ya libre, ya libre este suelo"<<endl;
+	 cout<<"Ya ceso su servil condicion"<<endl;
+	 cout<<"Jalir lema"<<endl;
+	 getch();
+
+}
