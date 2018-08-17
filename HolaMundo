@@ -14,6 +14,17 @@ void main()
 	getch();
 }
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Proceso HolaMundo
+	Escribir "Hola Mundo"
+	Escribir "Soy Jalir"
+FinProceso
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 
 Algoritmo HolaMundo
@@ -23,10 +34,12 @@ Algoritmo HolaMundo
 	Escribir "Ya ceso su servil condicion"
 FinAlgoritmo
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 
 // jalir lema.cpp : Defines the entry point for the console application.
-//
+//Himno Boivia
 
 #include "stdafx.h"
 #include <iostream>
@@ -42,11 +55,14 @@ void main()
 	 cout<<"Ya ceso su servil condicion"<<endl;
 	 cout<<"Jalir lema"<<endl;
 	 getch();
-
 }
 
 
-Proceso sin_titulo
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+Proceso triangulo
 	Escribir "Insertar base:"
 	Leer b
 	Escribir "Insertar altura:"
@@ -57,7 +73,12 @@ Proceso sin_titulo
 FinProceso
 
 
-Proceso sin_titulo
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+Proceso paralelogramo
 	Escribir "Insertar base:"
 	Leer b
 	Escribir "Insertar altura:"
@@ -67,8 +88,12 @@ Proceso sin_titulo
 	Escribir Area
 FinProceso
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Proceso sin_titulo
+
+
+
+Proceso circulo
 	Escribir "Insertar radio:"
 	Leer r
 	Escribir "Area del circulo"
@@ -76,12 +101,122 @@ Proceso sin_titulo
 	Escribir Area
 FinProceso
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Proceso sin_titulo
+
+Proceso cuadrado
 	Escribir "Insertar lado:"
 	Leer l
 	Escribir "Area del cuadrado"
 	area<-l*l
 	Escribir Area
 FinProceso
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+// areatri.cpp : Defines the entry point for the console application.
+// jalir lema.cpp : Defines the entry point for the console application.
+// Area triangulo
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+void main()
+{
+	 float area,b,h;
+     cout<<"Insertar base"<<endl;
+	 cin>>b;
+	 cout<<"Insertar altura"<<endl;
+	 cin>>h;
+	 area=(b*h)/2;
+	 cout<<"la area del triangulo es:"<<area;
+     cout<<"area"<<area;
+	 getch();
+}
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+// areaparalelogramo.cpp : Defines the entry point for the console application.
+// jalir lema.cpp : Defines the entry point for the console application.
+// Area paralelogramo
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+void main()
+{
+	 float area,b,h;
+     cout<<"Insertar base"<<endl;
+	 cin>>b;
+	 cout<<"Insertar altura"<<endl;
+	 cin>>h;
+	 area=b*h;
+	 cout<<"la area del paralelogramo es:"<<area;
+     cout<<"area"<<area;
+	 getch();
+}
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+// cuadrado.cpp : Defines the entry point for the console application.
+// jalir lema.cpp : Defines the entry point for the console application.
+// Area cuadrado
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+void main()
+{
+	 float area,l;
+     cout<<"Insertar lado"<<endl;
+	 cin>>l;
+	 area=l*l;
+	 cout<<"la area del cuadrado es:"<<area;
+     cout<<"area"<<area;
+	 getch();
+}
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+// circulo.cpp : Defines the entry point for the console application.
+// jalir lema.cpp : Defines the entry point for the console application.
+// Area circulo
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+void main()
+{
+	 float area,pi=3.1416,r;
+     cout<<"Insertar Radio"<<endl;
+	 cin>>r;
+	 area=r*r*pi;
+	 cout<<"la area del circulo es:"<<area;
+     cout<<"area"<<area;
+	 getch();
+}
+
 
