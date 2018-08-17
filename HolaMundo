@@ -44,3 +44,16 @@ void main()
 	 getch();
 
 }
+
+
+Proceso sin_titulo
+	Escribir "Insertar base:"
+	Leer b
+	Escribir "Insertar altura:"
+	Leer h
+	Escribir "Area del triangulo"
+	area<-(b*h)/2
+	Escribir Area
+FinProceso
+
+
