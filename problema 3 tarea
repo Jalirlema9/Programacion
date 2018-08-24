@@ -1,0 +1,52 @@
+// jalir.cpp : Defines the entry point for the console application.
+//*Promedio de cinco enteros con dos variables"/
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+void main()
+
+{
+
+float P=0,A;
+cout<<"Introducir el primer numero:"<<endl;
+cin>>A;
+P=P+A;
+cout<<"Introducir el segundo numero:"<<endl;
+cin>>A;
+P=P+A;
+cout<<"Introducir el tercer numero:"<<endl;
+cin>>A;
+P=P+A;
+cout<<"Intoducir el cuarto numero:"<<endl;
+cin>>A;
+P=P+A;
+cout<<"Intoducir el quinto numero:"<<endl;
+cin>>A;
+P=P+A;
+P=P/5;
+cout<<"El promedio es:"<<P;
+
+
+getch ();
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Proceso Cambiodevalores
+	Escribir 'Jalir lema'
+	Escribir 'Promedio de cinco enteros con dos variables'
+	Escribir 'Introducir el primer numero'
+	Leer x
+	Escribir 'Introducir el segundo numero'
+	Leer x2
+	Escribir 'Introducir el tercer numero'
+	Leer x3
+	Escribir 'Introducir el cuarto numero'
+	Leer x4
+	Escribir 'Inroducir el quinto numero'
+	Leer x5
+	P<-(x+x2+x3+x4+x5)/5
+	Escribir 'El promedio es:',P
+FinProceso
