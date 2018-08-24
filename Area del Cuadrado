@@ -1,4 +1,26 @@
 
+// cuadrado.cpp : Defines the entry point for the console application.
+// jalir lema.cpp : Defines the entry point for the console application.
+// Area cuadrado
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+void main()
+{
+	 float area,l;
+     cout<<"Insertar lado"<<endl;
+	 cin>>l;
+	 area=l*l;
+	 cout<<"la area del cuadrado es:"<<area;
+     cout<<"area"<<area;
+	 getch();
+}
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
