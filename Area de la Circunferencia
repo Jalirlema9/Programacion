@@ -1,7 +1,26 @@
 
+// circulo.cpp : Defines the entry point for the console application.
+// jalir lema.cpp : Defines the entry point for the console application.
+// Area circulo
 
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
 
+void main()
+{
+	 float area,pi=3.1416,r;
+     cout<<"Insertar Radio"<<endl;
+	 cin>>r;
+	 area=r*r*pi;
+	 cout<<"la area del circulo es:"<<area;
+     cout<<"area"<<area;
+	 getch();
+}
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 Proceso circulo
 	Escribir "Insertar radio:"
