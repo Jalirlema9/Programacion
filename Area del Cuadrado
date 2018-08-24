@@ -1,0 +1,13 @@
+
+
+
+
+
+
+Proceso cuadrado
+	Escribir "Insertar lado:"
+	Leer l
+	Escribir "Area del cuadrado"
+	area<-l*l
+	Escribir Area
+FinProceso
