@@ -1,3 +1,34 @@
+// areatri.cpp : Defines the entry point for the console application.
+// jalir lema.cpp : Defines the entry point for the console application.
+// Area triangulo
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+void main()
+{
+	 float area,b,h;
+     cout<<"Insertar base"<<endl;
+	 cin>>b;
+	 cout<<"Insertar altura"<<endl;
+	 cin>>h;
+	 area=(b*h)/2;
+	 cout<<"la area del triangulo es:"<<area;
+     cout<<"area"<<area;
+	 getch();
+}
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+
 Proceso triangulo
 	Escribir "Insertar base:"
 	Leer b
@@ -14,12 +45,3 @@ FinProceso
 
 
 
-Proceso paralelogramo
-	Escribir "Insertar base:"
-	Leer b
-	Escribir "Insertar altura:"
-	Leer h
-	Escribir "Area del paralelogramo"
-	area<- b*h
-	Escribir Area
-FinProceso
