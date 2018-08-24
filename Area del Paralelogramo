@@ -1,0 +1,12 @@
+
+
+
+Proceso paralelogramo
+	Escribir "Insertar base:"
+	Leer b
+	Escribir "Insertar altura:"
+	Leer h
+	Escribir "Area del paralelogramo"
+	area<- b*h
+	Escribir Area
+FinProceso
