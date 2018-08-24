@@ -1,0 +1,45 @@
+// chapaco.cpp : Defines the entry point for the console application.
+//Distancia entre 2 puntos
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+
+using namespace std;
+void main()
+
+{
+
+float x2, x1, y2, y1;
+double d;
+cout<<"Introducir x1:"<<endl;
+cin>>x1;
+cout<<"Introducir y1:"<<endl;
+cin>>y1;
+cout<<"Introducir x2:"<<endl;
+cin>>x2;
+cout<<"Introducir y2:"<<endl;
+cin>>y2;
+
+d=sqrt(pow((x2-x1),2)+pow((y2-y1),2));
+
+cout<<"La distancia entre los dos puntos es:"<<d;
+
+
+getch ();
+
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Proceso Distanciaentredospuntos
+	Escribir Jalir Lema
+	Leer x1
+	Leer y1
+	Leer x2
+	Leer y2
+	D<-RC(((x2-x1)^2)+((y2-y1)^2))
+	Escribir "La Distancia entre los dos puntos es:",D
+FinProceso
