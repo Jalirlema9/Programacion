@@ -1,0 +1,25 @@
+Proceso triangulo
+	Escribir "Insertar base:"
+	Leer b
+	Escribir "Insertar altura:"
+	Leer h
+	Escribir "Area del triangulo"
+	area<-(b*h)/2
+	Escribir Area
+FinProceso
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+Proceso paralelogramo
+	Escribir "Insertar base:"
+	Leer b
+	Escribir "Insertar altura:"
+	Leer h
+	Escribir "Area del paralelogramo"
+	area<- b*h
+	Escribir Area
+FinProceso
