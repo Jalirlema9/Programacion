@@ -1,0 +1,40 @@
+Proceso Cambiodevalores
+	Escribir "Jalir lema"
+	Leer A
+	Leer B
+	aux<-A
+	A<-B
+	B<-aux
+	Escribir "El valor de A es:",A
+	Escribir "El valor de B es:",B
+FinProceso
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// jalir.cpp : Defines the entry point for the console application.
+//*Cambio de Valores*/
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include <stdio.h>
+using namespace std;
+void main()
+
+{
+
+int aux,A,B;
+cout<<"Introducir valor entero de A"<<endl;
+cin>>A;
+cout<<"Introducir valor entero de B"<<endl;
+cin>>B;
+aux=A;
+A=B;
+B=aux;
+cout<<"Ahora el valor de A es:"<<endl;
+cout<<A<<endl;
+cout<<"Ahora el valor de B es:"<<endl;
+cout<<B<<endl;
+getch ();
+
+}
