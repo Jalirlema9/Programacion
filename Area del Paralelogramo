@@ -1,4 +1,27 @@
+// areaparalelogramo.cpp : Defines the entry point for the console application.
+// jalir lema.cpp : Defines the entry point for the console application.
+// Area paralelogramo
 
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+void main()
+{
+	 float area,b,h;
+     cout<<"Insertar base"<<endl;
+	 cin>>b;
+	 cout<<"Insertar altura"<<endl;
+	 cin>>h;
+	 area=b*h;
+	 cout<<"la area del paralelogramo es:"<<area;
+     cout<<"area"<<area;
+	 getch();
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 Proceso paralelogramo
