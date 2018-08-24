@@ -1,0 +1,36 @@
+// jalir.cpp : Defines the entry point for the console application.
+//*Perimetro de la Circunferencia"/
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "stdio.h"
+#define pi 3.1416
+using namespace std;
+void main()
+
+{
+
+float Perimetro,r,A;
+cout<<"Introducir valor de r"<<endl;
+cin>>r;
+A=r*r*pi;
+cout<<"El area es:"<<A<<endl;
+Perimetro=2*pi*r;
+cout<<"El perimetro es:"<<endl;
+cout<<Perimetro;
+getch ();
+
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Proceso Cambiodevalores
+	Escribir "Jalir lema"
+	Escribir "Radio de la circunferencia es"
+	Leer r
+	A<-r*r*3.1416
+	P<-2*3.1416*r
+	Escribir "El area de la circunferencia es:",A
+	Escribir "El perimetro de la circunferencia es:",P
+FinProceso
