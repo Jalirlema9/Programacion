@@ -1,0 +1,40 @@
+// jalir.cpp : Defines the entry point for the console application.
+// Bolitas
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+void main()
+{
+ float a=3,b=5,c=7,d=9,k,p,x;
+ cout<<"ingrese el valor de la compra total:"<<endl;
+ cin>>p;
+ cout<<"introducir color de bolita:"<<endl;
+ cin>>k;
+ if (k==a)
+ {
+  x=p-p*0;
+  cout<<"El total a pagar con descuento es:"<<x<<endl;
+ }
+  if (k==b)
+  {
+    x=p-p*0.05;
+    cout<<"El total a pagar con descuento es:"<<x<<endl;
+  }
+	if (k==c)
+	{
+    x=p-p*0.2;
+	cout<<"El total a pagar con descuento es:"<<x<<endl;
+	}
+	 if(k==d)
+	 {
+     x=p-p*0.5;
+	 cout<<"El total a pagar con descuento es:"<<x<<endl;
+	 }
+	 getch();
+
+}
+  
