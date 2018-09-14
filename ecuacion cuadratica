@@ -1,0 +1,42 @@
+// jalir.cpp : Defines the entry point for the console application.
+// ecuacion cuadratica
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+void main()
+{
+  float a,b,c,j,l1,l2;
+  cout<<"Ingresar valor de a:"<<endl;
+  cin>>a;
+  cout<<"Ingresar valor de b:"<<endl;
+  cin>>b;
+  cout<<"Ingresar valor de c:"<<endl;
+  cin>>c;
+  j=b*b-4*a*c;
+  if (j==0)
+  {
+	l1=(-b+sqrt(j))/(2*a);
+	cout<<"la unica solucion es:"<<l1;
+  }
+  if (j>0)
+  {
+    l1=(-b+sqrt(j))/(2*a);
+	l2=(-b-sqrt(j))/(2*a);
+	cout<<"l1:"<<l1<<endl;
+	cout<<"l2:"<<l2<<endl;
+  }
+  if (j<0)
+  {
+	 l1=(-b+sqrt(j))/(2*a);
+	 l2=(-b+sqrt(j))/(2*a);
+	 cout<<"l1:"<<l1<<"i:"<<endl;
+	 cout<<"l2"<<l2<<"i"<<endl;
+  }
+  getch();
+
+}
+
