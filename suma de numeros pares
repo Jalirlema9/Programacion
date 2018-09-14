@@ -1,0 +1,26 @@
+// jalir.cpp : Defines the entry point for the console application.
+// ecuacion cuadratica
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+
+void main()
+{
+  int suma,N,K,num;
+  K=1;
+  num=0;
+  cout<<"introducir la cantidad N de numeros pares:"<<endl;
+  cin>>N;
+  suma=0;
+  while (K<=N)
+   {
+	  num=num+2;
+		  suma=suma+num;
+		  K=K+1;
+   }
+   cout<<"la sunma de los primeros N numeros pares es."<<suma;
+   getch ();
+}
