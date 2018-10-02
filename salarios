@@ -1,0 +1,28 @@
+//salarios jalir lema
+
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+{
+	float Salario;
+	char resultado;
+	cout<<"calcularemos el salario del usuario"<<endl;
+	do{
+	cout<<"Ingrese el salario : "<<endl;
+	cin>>Salario;
+		if(Salario>=2060 && Salario<=8240)
+			cout<<"El salario que ganara es: "<<Salario*0.8729<<endl;
+		else
+			if(Salario>=8240)
+				cout<<"El salario que ganara es: "<<Salario*0.7429<<endl;
+			else
+				cout<<"debido aque hay un determinado monto minimo que gana un trabajador no puede pagar menos a su trabajador"<<endl;
+	cin>>resultado;
+	}while(resultado=='S');
+	getch();
+}
