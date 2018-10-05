@@ -1,0 +1,25 @@
+// lemaexeni.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int cont(int x);
+void main()
+{
+int n,s=0;
+cout<<"ingresar la cantidad de numeros n que quiere sumar :";
+cin>>n;
+s=cont(n);
+cout<<"El resultado es:"<<s<<endl;
+getch();
+}
+int cont(int x){
+	int i,s=1;
+	for (int i=1;i<=x;i++){
+		s=s*i;
+	}return s;
+}
