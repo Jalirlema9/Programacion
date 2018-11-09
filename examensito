@@ -1,0 +1,35 @@
+// jalir.cpp : Defines the entry point for the console application.
+//examensito
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include <string>
+#define MAX 100
+using namespace std;
+int palabras(string frase);
+int vocales(string frase[],int n);
+void main()
+{
+ float frase,caracteres,largo;
+ cout<<"Ingresar la frase: "<<endl;
+ cin>>frase;
+ caracteres=MAX;
+ getch();
+}
+int palabras(string frase)
+{
+	int largo;
+	largo=frase.lenght();
+	return largo;
+}
+int vocales(string frase[],int n)
+{
+	int cont,n,i;
+	for(int i=0;i<n;i++)
+	cont=0;
+	{ if(frase[i]='a'||frase[i]='e'||frase[i]='i'||frase[i]='o'||frase[i]='u')
+	cont ++;
+}
+	return cont;
+}
