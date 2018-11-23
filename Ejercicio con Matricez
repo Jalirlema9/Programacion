@@ -1,5 +1,5 @@
 // jalir.cpp : Defines the entry point for the console application.
-//ejercicioconmatricez
+//ejercicoconmatricez
 
 #include "stdafx.h"
 #include <iostream>
@@ -11,7 +11,7 @@ using namespace std;
 
 void cargar(int matrix[MAXROW][MAXCOL], int n,int m);
 void mostrar(int matrix[MAXROW][MAXCOL], int n,int m);
-void mayor(int matrix[MAXROW][MAXCOL], int n,int m);
+int mayor(int matrix[MAXROW][MAXCOL], int n,int m);
 void clasificar(int matrix[MAXROW][MAXCOL], int n,int m);
 void ejerciciomatrix(int matrix[MAXROW][MAXCOL], int n,int m);
 
