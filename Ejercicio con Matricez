@@ -1,0 +1,104 @@
+// jalir.cpp : Defines the entry point for the console application.
+//ejercicioconmatricez
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#define MAXROW 20
+#define MAXCOL 20
+
+using namespace std;
+
+void cargar(int matrix[MAXROW][MAXCOL], int n,int m);
+void mostrar(int matrix[MAXROW][MAXCOL], int n,int m);
+void mayor(int matrix[MAXROW][MAXCOL], int n,int m);
+void clasificar(int matrix[MAXROW][MAXCOL], int n,int m);
+void ejerciciomatrix(int matrix[MAXROW][MAXCOL], int n,int m);
+
+void main()
+{
+	int n,m,matrix[MAXROW][MAXCOL],opcion;
+	do{
+		cout<<"---MENU---"<<endl;
+		cout<<"1.Cargar matriz:"<<endl;
+		cout<<"2.Mostrar matriz:"<<endl;
+		cout<<"3.Mayor:"<<endl;
+		cout<<"4.Clasificar"<<endl;
+		cout<<"5.Ejercicio matriz"<<endl;
+		cout<<"0.Salir"<<endl;
+		cout<<"Eliga Opcion:"<<endl;
+		cin>>opcion;
+
+		switch(opcion)
+		{
+		case 1: cargar(matrix,n,m);
+			break;
+		case 2: mostrar(matrix,n,m);
+			break;
+		case 3: mayor(matrix,n,m);
+			break;
+		case 4: clasificar(matrix,n,m);
+			break;
+		case 5: ejerciciomatrix(matrix,n,m);
+			break;
+		case 0: cout<<"salir"<<endl;
+		default: cout<<"opcion no valida"<<endl;
+		}
+	}while(opcion!=0);
+	getch();
+}
+void cargar(int matriz[MAXROW][MAXCOL], int n, int m)
+   {for (int i=0; i<n; i++)
+       for (int j=0; j<m; j++)
+        {
+            cin>>matriz[i][j];
+        }
+}
+
+void mostrar(int matriz[MAXROW][MAXCOL], int n, int m)
+{ int i, j;
+    for (int i=0; i<n; i++)
+    {
+        for (int j=0; j<m; j++)
+         cout<<"Matriz ["<<i<<"] ["<<j<<"]: "<<matriz[i][j]<<endl;
+	}
+}
+
+int mayor(int matriz[MAXROW][MAXCOL], int n, int m)
+{ int i=0, j=0;
+    int tmayor=matriz[i][j];
+    for (int i=0; i<n; i++)
+    {
+       for (int j=0; j<m; j++)
+         if (tmayor>matriz[i][j])
+           tmayor=matriz[i][j];
+    return tmayor;
+    }
+}
+
+void clasificar(int matriz[MAXROW][MAXCOL], int n, int m)
+{ int aux;
+    int matriz1=matriz[0][0];
+    for (int k=0; k<n; k++){
+     for (int i=0; i<n-1; i++){
+      for (int j=i+1; j<m; j++)
+          if (matriz1<matriz[i][j])
+             {   
+               aux=matriz1;
+                matriz1=matriz[i][j];
+                 matriz[i][j]=aux;
+             }
+        }
+    }
+}
+
+void ejerciciomatriz(int matriz[MAXROW][MAXCOL], int n, int m)
+{ int a;
+    cout<<"ingresar numero deseado"<<endl;
+    cin>>a;
+    for (int i=0; i<n; i++){
+      for (int j=0; j<m; j++)
+         if (matriz[i][j]==a);
+             cout<<i<<a;
+    }
+}
